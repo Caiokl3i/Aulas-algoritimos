@@ -36,7 +36,7 @@ menor_60 = filter(lambda x: x < 60, lista)
 
 print('Menor que 60 : ',  list(menor_60))
 
-# map retorna uma lista
+# map retorna uma lista (transforma)
 
 quadrado = list(map(lambda x: x ** 2, numeros))
 
