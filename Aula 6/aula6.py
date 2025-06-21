@@ -1,46 +1,46 @@
-# # '''
-# # Dicionário é uma lista de associações compostas por chave UNICA e estruturas correspondentes. Dicionarios são mutáveis
+'''
+# Dicionário é uma lista de associações compostas por chave UNICA e estruturas correspondentes. Dicionarios são mutáveis
 
-# # sintaxe basica
+# sintaxe basica
 
-# # dicionario = {'a': a, 'b': b}
-# # '''
+# dicionario = {'a': a, 'b': b}
+'''
 
-# # dic = {'nome': 'caio', 'sala': 'U2'}
+dic = {'nome': 'caio', 'sala': 'U2'}
 
-# # print(dic['nome']) 
+print(dic['nome']) 
 
-# # # add novo elemento
-# # dic['album'] = 'version 2.0'
+# add novo elemento
+dic['album'] = 'version 2.0'
 
-# # # apagar um elemento do dicionario 
-# # del dic['album']
+# apagar um elemento do dicionario 
+del dic['album']
 
-# # item = dic.items()
+item = dic.items()
 
-# # print(item)
+print(item)
 
-# # chaves = dic.keys()
-# # print(chaves)
+chaves = dic.keys()
+print(chaves)
 
-# # valores = dic.values()
-# # print(valores)
+valores = dic.values()
+print(valores)
 
-# # outro ex.
+# outro ex.
 
-# progs = {'yes': ['close to edge', 'fragile'], 'genesis': ['ada', 'alpha']}
+progs = {'yes': ['close to edge', 'fragile'], 'genesis': ['ada', 'alpha']}
 
-# progs['king crimson'] = ['red', 'dicipline']
+progs['king crimson'] = ['red', 'dicipline']
 
-# item = progs.items()
+item = progs.items()
 
-# print(item)
+print(item)
 
-# for prog in progs.items():
-#     print(prog)
+for prog in progs.items():
+    print(prog)
 
-# if progs.has_key("king crimson"):
-#     del progs['king crimson']
+if progs.has_key("king crimson"):
+    del progs['king crimson']
 
 
 # Exercicio
