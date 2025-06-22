@@ -18,7 +18,7 @@ lista = [sub for lista in numeros for sub in lista]
 
 print(lista)
 
-# recursão - estudar mais recursão 
+# recursão - estudar mais recursão -----------------------
 
 numeros = [[1, 2], [3, 4], [5, 6]]
 
