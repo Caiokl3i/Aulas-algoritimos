@@ -3,11 +3,8 @@
 maior e o menor n´umero.
 '''
 
-lista = []
+lista = [int(input('Digite um numero: ')) for _ in range(5)]
 
-for _ in range(5):
-    num = int(input("Digite um numero:"))
-    lista.append(num)
 
 print(lista)
 print(f"maior: {max(lista)}")

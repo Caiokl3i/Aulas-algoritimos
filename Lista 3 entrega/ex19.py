@@ -5,8 +5,11 @@
 nomes = []
 
 while True:
-    nome = input("Digite um nome ou 'sair' para encerrar: ")
-    if nome.lower() == "sair":
+    nome = input("Digite um nome ou 'sair' para encerrar: ").strip()
+    if nome == '':
+        print('Entrada vazia')
+        continue
+    elif nome.lower() == "sair":
         break
     nomes.append(nome)
 

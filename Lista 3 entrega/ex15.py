@@ -4,9 +4,7 @@
 
 lista = ["A", "B", "C"]
 
-print(lista)
+removido = lista.pop()
 
-indice = lista.pop() 
-
-print(lista)
-print(indice)
+print(f'Elemento removido: {removido}')
+print(f'Lista atual: {lista}')

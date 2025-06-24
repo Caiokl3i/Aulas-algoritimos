@@ -2,8 +2,13 @@
 17. Crie uma lista com 5 n´umeros e calcule a m´edia usando la¸co for.
 '''
 
-numeros = [6, 6, 6, 1, 6]
+from functools import reduce
+import random
 
-media = sum(numeros) / len(numeros)
+numeros = [random.randint(1, 10) for _ in range(5)]
+
+print(numeros)
+
+media = reduce(lambda x, y: x + y, numeros) / len(numeros)
 
 print(media)

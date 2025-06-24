@@ -3,10 +3,9 @@
 em uma linha.
 '''
 
-nomes = []
+nomes = [input('Digite um nome: ') for _  in range(5)]
 
-for _ in range(1, 6):
-    nome = str(input("Digite o nome: "))
-    nomes.append(nome)
+print()
 
-print(nomes)
+for nome in nomes:
+    print(nome)

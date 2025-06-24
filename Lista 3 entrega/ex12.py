@@ -2,17 +2,19 @@
 12. Leia 5 n´umeros do usu´ario e verifique se cada um deles ´e maior que 10.
 '''
 
-lista = []
+numeros = []
 
-for i in range(5):
-    num = input("Digite um numero: ")
-    lista.append(int(num))
+while len(numeros) < 5:
+    try:
+        valor = int(input(f'Digite o {len(numeros) + 1}° numero: '))
+        numeros.append(valor)
+    except ValueError:
+        print('⚠️ Entrada inválida! Digite um número inteiro.')
 
-counter = 0
+print()
 
-for item in lista:
-    if item > 10:
-        print(f"{lista[counter]} é maior que 10")
+for n in numeros:
+    if n > 10:
+        print(f'{n} é maior que 10')
     else:
-        print(f"{lista[counter]} não é maior que 10")
-    counter += 1
+        print(f'{n} não é maior que 10')

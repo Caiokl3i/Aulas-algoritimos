@@ -2,9 +2,6 @@
 11. Crie uma lista com 10 zeros usando laco for.
 '''
 
-lista_zeros = []
+zeros_list = [0 for _ in range(10)]
 
-for i in range(10):
-    lista_zeros.append(0)
-    
-print(lista_zeros)
+print(zeros_list)

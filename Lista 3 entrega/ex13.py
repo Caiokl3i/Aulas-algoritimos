@@ -3,15 +3,7 @@
 pares.
 '''
 
-lista = []
-pares = []
-
-for i in range(0, 11):
-    lista.append(int(i))
-
-for item in lista:
-    if item % 2 == 0:
-        pares.append(item)
+pares = [n for n in range(1, 11) if n % 2 == 0]
 
 print(pares)
 

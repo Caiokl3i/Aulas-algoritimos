@@ -2,8 +2,6 @@
 1. Crie uma lista com 5 n´umeros inteiros. Imprima o tamanho da lista usando len
 '''
 
-numeros = [1, 2, 3, 4, 5,]
+numeros = [i for i in range(1, 6)]
 
-print(len(numeros))
-
-print()
+print(f'Tamanho da lista: {len(numeros)}')
