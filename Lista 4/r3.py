@@ -8,4 +8,3 @@ Exemplo: soma digitos(1234) → 10
 def digits_sum(digits):
     pass
 
-# pegar o ultimo colocar numa variavel e somar
